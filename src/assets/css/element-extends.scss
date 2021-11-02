@@ -1,0 +1,64 @@
+$tableTextColor: #929baf;
+
+.table-baseStyle {
+  th {
+    background-color: #f4f6f9;
+    color: $tableTextColor !important;
+  }
+
+  .el-table__header-wrapper {
+    .cell {
+      color: #6F7B96;
+      font-size: 13px;
+      padding: 0 4px;
+    }
+
+    th:first-child {
+      padding-left: 16px !important;
+      padding-right: 6px !important;
+    }
+  }
+
+  .el-table__body {
+    border-collapse: collapse;
+
+    .el-table__row {
+      border-bottom: 1px #eee solid;
+      .change-time-class {
+        display: none;
+      }
+      &:hover {
+        background-color: #f2f4f7;
+        color: #3c3d40;
+        .time-class {
+          display: none;
+        }
+        .change-time-class {
+          display: flex;
+          width: 100%;
+          cursor: pointer;
+        }
+
+      }
+
+      td {
+        padding: 4px 6px 4px 0 !important;
+      }
+
+      td:first-child {
+        padding-left: 16px !important;
+      }
+
+      .cell {
+        font-size: 12px;
+        color: #262D3D;
+        padding: 0 4px;
+        overflow: hidden; // 溢出隐藏
+        text-overflow: ellipsis; // 溢出用省略号显示
+        white-space: nowrap;
+      }
+    }
+  }
+
+
+}

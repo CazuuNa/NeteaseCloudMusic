@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2876959 */
+  src: url('iconfont.woff2?t=1635322010114') format('woff2'),
+       url('iconfont.woff?t=1635322010114') format('woff'),
+       url('iconfont.ttf?t=1635322010114') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon_tianjia:before {
+  content: "\eb89";
+}
+
+.icon-dianzhongdeaixin:before {
+  content: "\e611";
+}
+
+.icon-aixin:before {
+  content: "\eca1";
+}
+
+.icon-bofang1:before {
+  content: "\e8a3";
+}
+
+.icon-fenxiang:before {
+  content: "\e626";
+}
+
+.icon-wenjianjia:before {
+  content: "\e600";
+}
+
+.icon-bofang:before {
+  content: "\e624";
+}
+
+.icon-24gl-headphones:before {
+  content: "\ea09";
+}
+
+.icon-shoucang:before {
+  content: "\e906";
+}
+
+.icon-yinle:before {
+  content: "\e66d";
+}
+
+.icon-yinlemusic214:before {
+  content: "\e617";
+}
+
+.icon-shipin_o:before {
+  content: "\eb81";
+}
+
+.icon-xiazai_o:before {
+  content: "\eb9d";
+}
+
+.icon-shouye:before {
+  content: "\e635";
+}
+
+.icon-music_note_single:before {
+  content: "\e619";
+}
+
+.icon-pengyou:before {
+  content: "\e61a";
+}
+
+.icon-15:before {
+  content: "\e615";
+}
+
+.icon-luyinjishouyinjidiantai:before {
+  content: "\e625";
+}
+
